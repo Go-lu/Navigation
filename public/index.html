@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html LANG="zh-CN">
+
+<head>
+	<title>Nav</title>
+	<meta name="google" content="notranslate" />
+	<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+	      name="viewport"/>
+<!--	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" type="text/javascript"></script>-->
+	<!-- 引入flexible.js -->
+	<!-- <script type="text/javascript" src="./flexible.js"></script> -->
+<!--	<link href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" rel="stylesheet" type="text/css"/>-->
+	<link href="reset.css" rel="stylesheet" type="text/css"/>
+	<meta charset="utf-8">
+	<link href="./index.css" rel="stylesheet" type="text/css">
+<!--	<link rel="stylesheet" href="animal.css" type="text/css">-->
+	<!-- <link rel="stylesheet" href="../static/css/he-simple.css"> -->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<link href="<%= BASE_URL %>favicon.ico" rel="icon">
+	<!-- <title>
+      <%= htmlWebpackPlugin.options.title %>
+    </title> -->
+</head>
+
+<body class="neumorphism">
+<noscript>
+	<strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled.
+		Please enable it to continue.</strong>
+</noscript>
+<div class="main"></div>
+<script>
+	document.addEventListener("DOMContentLoaded", function () {
+		var changeColor = document.getElementById("changeColor");
+		var body = document.body;
+
+		changeColor.addEventListener("change", function () {
+			var checked = changeColor.checked;
+			body.className = "";
+			if (checked) {
+				body.classList.add("dark");
+			} else {
+				body.classList.add("neumorphism");
+			}
+		});
+	});
+</script>
+<!-- built files will be auto injected -->
+</body>
+
+</html>
