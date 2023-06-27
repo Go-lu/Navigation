@@ -16,8 +16,8 @@
 > - [ ] ......
  
 ## 食用方式：
-> 1. 克隆到本地后cd到Nav目录，运行 `vue build` ( 请到[和风天气](https://dev.qweather.com/)获取自己token，并替换 `/Nav/src/components/Weather/index.vue`里config的key参数里 )
-> 2. 将打包后的dist目录扔进navServer目录，cd到navServer目录运行 `node app.js`
+> 1. 克隆到本地后cd到Nav目录，依次运行 `npm install` -> `vue build` ( 请先到[和风天气](https://dev.qweather.com/)获取自己token，替换 `/Nav/src/components/Weather/index.vue`里config的key参数里后再进行构建操作 )
+> 2. 将打包后的dist目录扔进navServer目录，cd到navServer目录依次运行 `npm install` -> `node app.js`
 >
 > 3. 说明：
 > > 1. 默认端口为8082，可自行修改app.js
