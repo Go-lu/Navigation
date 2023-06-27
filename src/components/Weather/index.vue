@@ -26,7 +26,7 @@ export default {
         fixed: "false",
         vertical: "center",
         horizontal: "center",
-        key: this.$store.state.home.webData['hfToken']
+        key: "38147e24ee4c4e77acf40ec842ece797"
       },
     };
     const d = document;
