@@ -1,4 +1,8 @@
-<h1 style="text-align: center;">Golu-Navigation</h1>
+<h1 style="text-align: center; color=#fc5531;">Golu-Navigation已升级迁移，最新项目请导航到以下仓库</h1>
+> **前端：[GoluNavigationWeb](https://github.com/Go-lu/GoluNavigationWeb)**
+>**后端：[GoluNavigationServer](https://github.com/Go-lu/GoluNavigationServer.git)**
+----
+<h2 style="text-align: center;">Golu-Navigation</h1>
 
 ### 一个简洁且现代化的导航页，前端使用vue，后端node，由json配置网站数据 
 
